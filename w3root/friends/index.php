@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Friends</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <div style="max-width: 400px;margin:auto;">
-        <h1>Friends List</h1>
+        <h1 style="font-family: Skranji;">Friends List</h1>
 
         <div>
-            Add Friend: <a class="button" href='friend-add.html'><img src="../images/addbox.png"></a>
+            Add Friend: <a class="button" href='friend-add.html'><img src="images/addbox.png"></a>
         </div>
 
         <ol>
